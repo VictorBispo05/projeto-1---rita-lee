@@ -1,2 +1,103 @@
-#menu ul li {display: inline;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
+}
 
+header {
+    padding: 4px 0;
+    background-color: rgb(246, 148, 0);
+    color: white;
+}
+
+header nav li {
+    background-color: rgb(246, 148, 0);
+    display: inline;
+    margin-left: 16px;
+}
+
+header .container {
+    max-width: 1280px;
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(246, 148, 0);
+}
+
+header .container img {
+    background-color: rgb(246, 148, 0); width: 100px;
+}
+
+header .container h1 {
+    font-size: 60px;
+    font-family: 'Racoste', sans-serif;
+    font-weight: 500;
+}
+
+header .container a {
+    text-decoration: none;
+    font-size: 40px;
+    font-family: 'Calleo-Trial', sans-serif;
+}
+
+header .container nav {
+    position: absolute;
+    right: 100px;
+}
+
+#sobre {
+    margin-left: 220px;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    display: flex;
+}
+
+section .container h2 {
+    color: rgb(246, 148, 0);
+    font-size: 50px;
+    font-family: 'Calleo-Trial', sans-serif;
+    text-align: center;
+}
+
+section .container {
+    max-width: 1280px;
+    text-align: justify;
+}
+
+section .container p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+
+body{
+    background-color: rgb(21, 21, 21);
+}
+
+.albuns {
+    display: flex;
+}
+
+.albuns article {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#discografia h2 {
+    font-size: 50px;
+}
+
+.albuns article img {
+    width: 450px;
+}
+
+.streaming h2 {
+    font-size: 20px;
+}
+
+.streaming img {
+    width: 50px;
+}
