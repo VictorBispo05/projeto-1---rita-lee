@@ -54,6 +54,11 @@ header .container nav {
     display: flex;
 }
 
+#sobre img {
+    width: 759px;
+    height: 636px;
+}
+
 section .container h2 {
     color: rgb(246, 148, 0);
     font-size: 50px;
@@ -77,8 +82,14 @@ body{
     background-color: rgb(21, 21, 21);
 }
 
+.discos {
+    display: flex;
+    justify-content: center;
+}
+
 .albuns {
     display: flex;
+    margin-bottom: 80px;
 }
 
 .albuns article {
@@ -86,18 +97,96 @@ body{
     margin-right: 50px;
 }
 
-#discografia h2 {
+h2 {
+    color: rgb(246, 148, 0);
     font-size: 50px;
+    font-family: 'Calleo-Trial', sans-serif;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 30px;
+    font-family: 'Calleo-Trial', sans-serif;
 }
 
 .albuns article img {
     width: 450px;
+    height: 450px;
+}
+
+
+
+footer {background-color: rgb(246, 148, 0)}
+
+#contato {
+    margin-left: 170px;
+    display: flex;
+}
+
+#contato h2 {
+    color: white;
+    font-weight: 600;
+}
+
+form input,
+form textarea,
+form button {
+    margin: 8px;
+    display: block;
+    width: 400px;
+    padding: 8px;
+}
+
+form input,
+form textarea {
+    color: black;
+}
+
+form textarea {
+    resize: none;
+}
+
+.formulario {
+    margin-left: 40px;
+}
+
+form button {
+    color: black;
+    background-color: white;
+}
+
+.streaming {
+    margin-top: 30px;
 }
 
 .streaming h2 {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+.streaming .plataformas {
+    margin-left: 50px;
+    margin-top: 40px;
 }
 
 .streaming img {
-    width: 50px;
+    width: 90px;
+}
+
+.agradecimentos {
+    position: absolute;
+    margin-top: 70px;
+    right: 220px;
+    font-size: 20px;
+    display: block;
+    width: 450px;
+}
+
+footer .container {
+    display: flex;
+    
 }
